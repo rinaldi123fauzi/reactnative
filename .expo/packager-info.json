@@ -3,8 +3,8 @@
   "expoServerPort": 19000,
   "expoServerNgrokUrl": "https://ps-2c5.anonymous.rn-starter.exp.direct",
   "packagerNgrokUrl": "https://packager.ps-2c5.anonymous.rn-starter.exp.direct",
-  "ngrokPid": 30896,
-  "devToolsPort": 19002,
+  "ngrokPid": 27320,
+  "devToolsPort": 19003,
   "packagerPort": 19001,
-  "packagerPid": 12204
+  "packagerPid": 42780
 }
