@@ -15,39 +15,18 @@ const SquareScreen = () => {
 
         switch (color){
             case 'red':
-                //Versi 1
-                    red + change > 255 || red + change < 0 ? null : setRed(red + change)
-                    return;
-                //Versi 2
-                    // if (red + change > 255 || red + change < 0){
-                    //     return;
-                    // } else {
-                    //     setRed(red + change)
-                    // }
+                red + change > 255 || red + change < 0 ? null : setRed(red + change)
+                return;
             case 'green':
-                //Versi 1
-                    green + change > 255 || green + change < 0 
-                    ? null 
-                    : setGreen(green + change)
-                    return;
-                //Versi 2
-                    // if (red + change > 255 || red + change < 0){
-                    //     return;
-                    // } else {
-                    //     setRed(red + change)
-                    // }
+                green + change > 255 || green + change < 0 
+                ? null 
+                : setGreen(green + change)
+                return;
             case 'blue':
-                //Versi 1
-                    blue + change > 255 || blue + change < 0 
-                    ? null 
-                    : setBlue(blue + change)
-                    return;
-                //Versi 2
-                    // if (red + change > 255 || red + change < 0){
-                    //     return;
-                    // } else {
-                    //     setRed(red + change)
-                    // }
+                blue + change > 255 || blue + change < 0 
+                ? null 
+                : setBlue(blue + change)
+                return;
             default:
                 return;
 
